@@ -65,7 +65,4 @@ extract "${MY_DIR}"/proprietary-files.txt "${SRC}" \
 
 DEVICE_BLOB_ROOT="${ANDROID_ROOT}"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary
 
-# Gnss
-sed -i -e '$a\\    capabilities NET_BIND_SERVICE' "${DEVICE_BLOB_ROOT}"/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
-
 "${MY_DIR}/setup-makefiles.sh"
