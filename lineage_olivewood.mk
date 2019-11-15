@@ -21,6 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Set Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 28
 
+#
+# All components inherited here go to system_ext image
+#
+$(call inherit-product, $(SRC_TARGET_DIR)/product/handheld_system_ext.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
+
 # Inherit from olivewood device
 $(call inherit-product, device/xiaomi/olivewood/device.mk)
 
