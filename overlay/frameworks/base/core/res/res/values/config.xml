@@ -552,4 +552,6 @@
     <dimen name="status_bar_height_portrait">55.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
 
+    <!-- Remote server that can provide NTP responses. -->
+    <string translatable="false" name="config_ntpServer">pool.ntp.org</string>
 </resources>
