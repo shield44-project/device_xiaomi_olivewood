@@ -155,6 +155,13 @@ PRODUCT_PACKAGES += \
     libvulkan \
     vendor.display.config@1.0.vendor
 
+# Doze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.sensor.pickup=xiaomi.sensor.pickup
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:64 \
