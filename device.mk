@@ -87,6 +87,10 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl:32 \
@@ -360,6 +364,11 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml
+
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_olivewood \
+    android.hardware.biometrics.fingerprint@2.2
 
 # Sensors
 PRODUCT_PACKAGES += \
