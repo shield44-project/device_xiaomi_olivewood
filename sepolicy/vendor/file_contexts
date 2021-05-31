@@ -10,6 +10,9 @@
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service\.xiaomi_olivewood                  u:object_r:hal_lineage_livedisplay_qti_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.xiaomi_olivewood                        u:object_r:hal_lineage_touch_default_exec:s0
 
+# Ir
+/dev/lirc0	u:object_r:ir_device:s0
+
 # I/O
 # This node is already labelled by QCOM but Lineage overrides it with sysfs_io_sched_tunable label
 # Since qti_init_shell needs to write to it, LOS's private label isn't accessible by our vendor
