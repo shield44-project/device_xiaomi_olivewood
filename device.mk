@@ -224,6 +224,10 @@ PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml
 
+# Insmod files
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/init.insmod.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.cfg
+
 # IPA Manager
 PRODUCT_PACKAGES += \
     ipacm \
@@ -313,7 +317,8 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.usb.rc \
     init.parts.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.insmod.sh
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
