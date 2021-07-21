@@ -31,9 +31,7 @@ ro.charger.enable_suspend=true
 persist.console.silent.config=1
 
 # Data
-ro.vendor.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true
-persist.vendor.data.mode=concurrent
 
 # Display
 debug.egl.hw=0
@@ -102,7 +100,6 @@ persist.sys.binary_xml=false
 persist.timed.enable=true
 
 # Telephony
-DEVICE_PROVISIONED=1
 persist.rild.nitz_long_ons_0=
 persist.rild.nitz_long_ons_1=
 persist.rild.nitz_long_ons_2=
@@ -112,10 +109,8 @@ persist.rild.nitz_short_ons_0=
 persist.rild.nitz_short_ons_1=
 persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
-ril.subscription.types=NV,RUIM
 ro.telephony.call_ring.multiple=false
 service.qti.ims.enabled=1
-telephony.lteOnCdmaDevice=1
 vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 vendor.service.qti.ims.enabled=1
 #
