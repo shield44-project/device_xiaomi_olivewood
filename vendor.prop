@@ -105,6 +105,9 @@ vendor.rild.libargs=-d /dev/smd0
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=MSM8937
 
+# Sensor
+ro.vendor.sensors.pseudo_gyro=true
+
 # Tcp
 net.tcp.2g_init_rwnd=10
 
