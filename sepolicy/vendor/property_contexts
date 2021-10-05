@@ -18,6 +18,8 @@ cpp.set.clock                   u:object_r:camera_prop:s0
 disable.cpp.power.collapse      u:object_r:camera_prop:s0
 persist.camera.module.info      u:object_r:camera_prop:s0
 persist.camera.                 u:object_r:camera_prop:s0
+persist.vendor.camera.          u:object_r:camera_prop:s0
+vendor.camera.                  u:object_r:camera_prop:s0
 persist.cam.pp.feat.mask        u:object_r:camera_prop:s0
 persist.capture.burst.exposures u:object_r:camera_prop:s0
 persist.debug.set.fixedfps      u:object_r:camera_prop:s0
