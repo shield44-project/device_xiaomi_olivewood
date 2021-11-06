@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-aosp
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-aospa
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -316,7 +316,7 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.rc \
     init.qcom.sh \
-    init.qcom.usb.rc \
+    init.olivewood.usb.rc \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc \
