@@ -4550,12 +4550,6 @@ vendor/lib/libsmwrapper.so|f0ee761c02c888e77d947bb87d162d9379bc1530
 # Media - from LA.UM.9.6.2.r1-04200-89xx.0
 lib/libFileMux.so|4e05cd5e9913311ad17543d204adcd6d60cc8754
 lib/libOmxMux.so|1f861cbf34f5e885fb4f9637b4aab53a3c59691b
-system_ext/lib/extractors/libmmparserextractor.so|5135a95473e887749100c7f84f5f659630c80193
-system_ext/lib/libavenhancements.so|248d6cf0db255fb2cf5e077e7127f510036f7ec0
-system_ext/lib/libmmosal.so|8c7f0a071f84ec2ac9522bf448cb902a3ece2405
-system_ext/lib/libmmparser_lite.so|18cf2b71e517e651e35b931261f0c63783813ff6
-system_ext/lib64/libavenhancements.so|642292eeef580a33fec54b4505c1b6cecffde5a3
-system_ext/lib64/libmmosal.so|ef19a38be8283c87eabe96f74bc8a71881ab1f0a
 vendor/etc/seccomp_policy/mediacodec.policy|3dec19ed56099a36b44cc72ad04ab23b9cc22ace
 vendor/etc/seccomp_policy/mediaextractor.policy|4234a844e9b1aef37397c8cfbd19566966ecd622
 vendor/lib/libFlacSwDec.so|7d661ac115de794bc6f6f7d20d4f93735b698c52
