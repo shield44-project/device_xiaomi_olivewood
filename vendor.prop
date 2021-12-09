@@ -1,5 +1,5 @@
 #
-# vendor.prop for mido
+# vendor.prop for olivewood
 #
 
 # Audio
@@ -103,7 +103,7 @@ vendor.rild.libargs=-d /dev/smd0
 
 # SoC
 ro.soc.manufacturer=Qualcomm
-ro.soc.model=MSM8953
+ro.soc.model=MSM8937
 
 # Tcp
 net.tcp.2g_init_rwnd=10
