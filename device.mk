@@ -15,7 +15,6 @@
 #
 
 $(call inherit-product, vendor/xiaomi/olivewood/olivewood-vendor.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 TARGET_BOARD_PLATFORM := msm8937
 TARGET_BOARD_SUFFIX := _64
