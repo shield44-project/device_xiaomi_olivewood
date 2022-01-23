@@ -261,14 +261,8 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libstagefright_enc_common
 
-# Power
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.0.vendor \
-    vendor.qti.hardware.perf@2.1.vendor
-
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
-    $(LOCAL_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf
+    $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
 # Public libraries
 PRODUCT_COPY_FILES += \
@@ -280,6 +274,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     av \
     gps \
     overlay \
+    perf \
     telephony \
     vibrator
 
