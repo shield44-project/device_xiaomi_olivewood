@@ -152,8 +152,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libsdmutils \
     libsdmutils.vendor \
-    libtinyxml \
-    libtinyxml.vendor \
     libvulkan \
     vendor.display.config@1.0.vendor
 
