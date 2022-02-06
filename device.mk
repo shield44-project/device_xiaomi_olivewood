@@ -283,7 +283,8 @@ PRODUCT_COPY_FILES += \
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno-legacy \
     av \
-    telephony
+    telephony \
+    vibrator
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -334,11 +335,7 @@ PRODUCT_PACKAGES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-V1-ndk_platform.vendor \
-    android.hardware.vibrator@1.3.vendor \
-    vendor.qti.hardware.vibrator.service
-
-PRODUCT_COPY_FILES += \
-    vendor/qcom/opensource/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+    android.hardware.vibrator@1.3.vendor
 
 # VNDK
 $(foreach target, $(shell cat $(LOCAL_PATH)/vndk.txt), $(eval PRODUCT_PACKAGES += $(target).vendor))
