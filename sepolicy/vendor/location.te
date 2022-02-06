@@ -1,2 +1,2 @@
 #xtra-demon
-hal_client_domain(location, vendor_qccsyshal);
+#hal_client_domain(location, vendor_qccsyshal);
