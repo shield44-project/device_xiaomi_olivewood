@@ -17,7 +17,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # RRO (Runtime Resource Overlay)
 PRODUCT_ENFORCE_RRO_TARGETS := *
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Snap
 
 # Soong namespaces
@@ -206,10 +205,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
 
-# IMS
-PRODUCT_PACKAGES += \
-    CarrierConfigOverlay
-
 # Insmod files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init.insmod.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.cfg
@@ -284,6 +279,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     adreno-legacy \
     av \
     gps \
+    overlay \
     telephony \
     vibrator
 
@@ -348,7 +344,6 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     hostapd \
     libwifi-hal-qcom \
-    TetheringConfigOverlay \
     WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
