@@ -277,14 +277,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
 # QTI Common
-TARGET_COMMON_QTI_COMPONENTS := \
-    adreno-legacy \
-    av \
-    gps \
-    overlay \
-    perf \
-    telephony \
-    vibrator
+QTI_COMPONENTS += adreno-legacy
+QTI_COMPONENTS += av
+QTI_COMPONENTS += gps
+QTI_COMPONENTS += overlay
+QTI_COMPONENTS += perf
+QTI_COMPONENTS += telephony
+QTI_COMPONENTS += vibrator
+TARGET_COMMON_QTI_COMPONENTS := $(QTI_COMPONENTS)
 
 # Ramdisk
 PRODUCT_PACKAGES += \
