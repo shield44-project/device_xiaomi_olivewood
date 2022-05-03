@@ -1,3 +1,14 @@
+# ACDB - from olivewood
+vendor/etc/acdbdata/adsp_avs_config.acdb
+vendor/etc/acdbdata/olive/SDM439_SKU1_Global_cal.acdb
+vendor/etc/acdbdata/olive/SDM439_SKU1_General_cal.acdb
+vendor/etc/acdbdata/olive/SDM439_SKU1_workspaceFile.qwsp
+vendor/etc/acdbdata/olive/SDM439_SKU1_Bluetooth_cal.acdb
+vendor/etc/acdbdata/olive/SDM439_SKU1_Speaker_cal.acdb
+vendor/etc/acdbdata/olive/SDM439_SKU1_Handset_cal.acdb
+vendor/etc/acdbdata/olive/SDM439_SKU1_Headset_cal.acdb
+vendor/etc/acdbdata/olive/SDM439_SKU1_Hdmi_cal.acdb
+
 # ADSP - from LA.UM.9.6.2.r1-04200-89xx.0
 vendor/bin/adsprpcd|c8a45eb83a6d70dcbcc1b8ec574391b49e8ca8b9
 vendor/bin/dspservice|c7809e32581d5c6efac65a3a7689f43526c17bb8
