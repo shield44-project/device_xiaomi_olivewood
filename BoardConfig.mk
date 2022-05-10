@@ -146,7 +146,7 @@ USE_DEVICE_SPECIFIC_MEDIA := true
 DEVICE_SPECIFIC_MEDIA_PATH := $(DEVICE_PATH)/qcom-caf/media
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := olivewood,olivelite
+TARGET_OTA_ASSERT_DEVICE := olivewood,olivelite,olive
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
