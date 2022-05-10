@@ -1,3 +1,5 @@
+# Not appended blobs from Xiaomi/olive/olive:10/QKQ1.191014.001/V12.5.1.0.QCNCNXM:user/release-keys
+
 # ADSP - from LA.UM.9.6.2.r1-04200-89xx.0
 vendor/bin/adsprpcd|c8a45eb83a6d70dcbcc1b8ec574391b49e8ca8b9
 vendor/bin/dspservice|c7809e32581d5c6efac65a3a7689f43526c17bb8
@@ -117,7 +119,7 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|5de4a802667afa2c05b9c75ae6
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
-# Camera - from olive 
+# Camera
 vendor/lib/libcamera_scene.so
 vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2vop.so
@@ -4281,7 +4283,7 @@ vendor/lib64/vendor.qti.latency@2.1.so|3f5e3be5fcbc96b5f4c87dd76cfcc0e1dc858ad0
 # Consumer IR
 vendor/lib64/hw/consumerir.default.so
 
-# Dirac
+# Dirac - from mido-user 7.0 NRD90M 9.7.4 release-keys
 vendor/etc/diracmobile.config
 vendor/lib/libDiracAPI_SHARED.so
 vendor/lib/soundfx/libdirac.so
@@ -4305,7 +4307,7 @@ vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|d9f1aa7f93b928f42499d613d20ccbc60f279097
 vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
 
-# Display-calibration - from olive-user 10 QKQ1.191014.001 V12.0.1.0.QCNMIXM release-keys
+# Display-calibration
 vendor/etc/qdcm_calib_data_ft8006s_hdplus_c3i_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_ili9881h_hdplus_c3i_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_nvt36525b_hdplus_c3i_video_mode_dsi_panel.xml
@@ -4339,7 +4341,7 @@ vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc|225dd006bfecf6c1dca
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml|91d7c0996133556cb7f7c5d1b7e5d9e7f07b78b2
 vendor/lib64/libwvhidl.so|8ffc9cfc0ca2abc0e7bbde94c61961b1fef45e6f
 
-# Fingerprint - from olive
+# Fingerprint
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
@@ -4358,7 +4360,7 @@ vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
-# Firmware - from olive-user 10 QKQ1.191014.001 V12.0.1.0.QCNMIXM release-keys
+# Firmware
 etc/firmware/ice40.bin
 vendor/firmware/a225_pfp.fw
 vendor/firmware/a225_pm4.fw
@@ -4578,15 +4580,15 @@ vendor/lib/libvqzip.so|f85628ea634df1c31d69380d960ad7ea3396e7b2
 vendor/lib64/libmmosal.so|e9fdb48163e92b089cea0c397723a8416436c272
 vendor/lib64/libvpplibrary.so|30e8e7cf1495fb88162beeb65e6273f28563b43b
 
-# Megvii - from olive
-vendor/lib/libwa_dof.so|65711c26b8fc072bd6e044a9f0be92bcf648b46a
-vendor/lib/libwa_megface.so|dceaa7d227cce482b1c6f51aff50b986b18bca63
-vendor/lib/libwa_rtdof.so|afb92793c1efccadc97f866c0a951dd40b4ba6a4
-vendor/lib/libwapi_cert.so|74758453b00548fd7ba6754e8027fc18c28612af
-vendor/lib64/libwa_dof.so|3c2f58ffacd061b7939ec67ea3a76b20d27bb9e3
-vendor/lib64/libwa_megface.so|50c1cf32e5840506990af2942f6d6d6ee46b58e8
-vendor/lib64/libwa_rtdof.so|e1e89fba0721ba100804429e529fd9784615232a
-vendor/lib64/libwapi_cert.so|501055f21be99733c95eae4594469e3d04df3d71
+# Megvii
+vendor/lib/libwa_dof.so
+vendor/lib/libwa_megface.so
+vendor/lib/libwa_rtdof.so
+vendor/lib/libwapi_cert.so
+vendor/lib64/libwa_dof.so
+vendor/lib64/libwa_megface.so
+vendor/lib64/libwa_rtdof.so
+vendor/lib64/libwapi_cert.so
 
 # Perf - from LA.UM.9.6.2.r1-04200-89xx.0
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|8661609a6155d1ba635ab867a301455003971842
@@ -4628,7 +4630,7 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|4129558506dc078c03679ba362acda4755457742
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|3c182fd3343942c431e1d27d87f8fe114644ca36
 
-# Power-off charging daemon
+# Power-off charging daemon - from mido-user 7.0 NRD90M 9.7.4 release-keys
 -sbin/charger:bin/chargeonlymode|664dfa548b81cac348f1699222160f8d2b4d247c
 
 # QMI (diag) - from LA.UM.9.6.3.r1-04400-89xx.0
@@ -4869,7 +4871,7 @@ vendor/lib64/libsensor_user_cal.so|9493f9495f170ab043b0ea9fec8d0bba0cd7b9d9
 vendor/lib64/sensor_calibrate.so|219ee0b1bdcc6a3f0b9261f6fc31838916856c99
 vendor/lib64/sensors.ssc.so|863de4d737c389c059670d8e1592bba58ae33de3
 
-# Thermal - from olive-user 10 QKQ1.191014.001 V11.0.1.0.QCNCNXM release-keys
+# Thermal
 vendor/bin/thermal-engine|633b9cff05ba176a18101bdfc03ecacc98e1e0f0
 vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
 vendor/etc/thermal-engine-camera.conf|e2c04ccb19a5697b8c9c1ce6c6c1663196370d63
@@ -4894,18 +4896,18 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|933eb7026797f3dadad3d10fd69443b11f6563f3
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|16baab27397ad493e845515c20ac0c0c063c775d
 
-# Westalgo - from olive
-vendor/etc/westalgo/dof_model/cache_data
-vendor/etc/westalgo/dof_model/megviisegment_model
-vendor/etc/westalgo/dof_model/model_mdl_cache
-vendor/etc/westalgo/dof_model/olivewood/cache_data
-vendor/etc/westalgo/dof_model/olivewood/megviisegment_model
-vendor/etc/westalgo/dof_model/olivewood/model_mdl_cache
-vendor/etc/westalgo/rt_model/mask/cache_data
-vendor/etc/westalgo/rt_model/mask/megviisegment_model
-vendor/etc/westalgo/rt_model/mask/model_mdl_cache
-vendor/etc/westalgo/rt_model/score/cache_data
-vendor/etc/westalgo/rt_model/score/megviisegment_model
+# Westalgo
+vendor/etc/westalgo/dof_model/cache_data 
+vendor/etc/westalgo/dof_model/megviisegment_model 
+vendor/etc/westalgo/dof_model/model_mdl_cache 
+vendor/etc/westalgo/dof_model/olivewood/cache_data 
+vendor/etc/westalgo/dof_model/olivewood/megviisegment_model 
+vendor/etc/westalgo/dof_model/olivewood/model_mdl_cache 
+vendor/etc/westalgo/rt_model/mask/cache_data 
+vendor/etc/westalgo/rt_model/mask/megviisegment_model 
+vendor/etc/westalgo/rt_model/mask/model_mdl_cache 
+vendor/etc/westalgo/rt_model/score/cache_data 
+vendor/etc/westalgo/rt_model/score/megviisegment_model 
 vendor/etc/westalgo/rt_model/score/model_mdl_cache
 
 # Wi-Fi - from LA.UM.9.6.3.r1-04400-89xx.0
