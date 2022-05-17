@@ -265,7 +265,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.xiaomi_olivewood
+    vendor.lineage.livedisplay@2.0-service-sdm
 
 # LMKD
 # Enable stats logging in LMKD

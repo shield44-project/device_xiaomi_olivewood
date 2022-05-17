@@ -3,7 +3,6 @@
 
 # HALs
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_olivewood                      u:object_r:hal_light_default_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service\.xiaomi_olivewood                  u:object_r:hal_lineage_livedisplay_qti_exec:s0
 
 # Ir
 /dev/lirc0	u:object_r:ir_device:s0
