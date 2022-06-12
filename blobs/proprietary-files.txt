@@ -26,7 +26,7 @@ vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|944169db3ac67056b92ef4f850f69346958370b5
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
 
-# Audio - from LA.UM.9.6.2.r1-04200-89xx.0
+# Audio - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_150 release-keys
 vendor/lib/soundfx/libqcbassboost.so|aee797870096234f1237c6b99819cfceb1a80ecc
 vendor/lib/soundfx/libqcreverb.so|cd884a46419329933c81096ad1eeba46bc0b8a70
 vendor/lib/soundfx/libqcvirt.so|3ed80ebc51ab6c2a56d4e9c29bf119d201a47e65
@@ -37,6 +37,8 @@ vendor/lib/libadiertac.so|5c80bbb7ae8fb329ec4c2518c4e336b010bd57dc
 vendor/lib/libadm.so|a5e6c65b7133440b4550234db4454e4c81627f66
 vendor/lib/libaudcal.so|4fa1da9616f7470caa79f905740daff66922b584
 vendor/lib/libaudioalsa.so|58feb2c5cbc4ac6e23ef4896c87785bed8db3c80
+vendor/lib/libaudioconfigstore.so|1a752baf972930007e6b10a64bbcebe14b7cb6a5
+vendor/lib/libaudioparsers.so|bc02240aa70e41ba85da6f04541d6bc599982b4b
 vendor/lib/libdrc.so|303d67b5bfea162ae994d3817de317258035c42a
 vendor/lib64/libacdb-fts.so|ae8275322050d1bd5cebf2cee15864fcf3c87fdf
 vendor/lib64/libacdbloader.so|d32fcac74a11ae0f982b60af13aea0c061383e1b
@@ -44,6 +46,8 @@ vendor/lib64/libacdbrtac.so|547a42e2ed54d13e780fab26134ec0fd90054d4c
 vendor/lib64/libadiertac.so|98a8c2702d4e203689e4a80c69c4b1cf93af1567
 vendor/lib64/libaudcal.so|213bdd87ec3339042796f62605e38690e2500fd6
 vendor/lib64/libaudioalsa.so|534d4dc07fecea0611273c745721b1ed2015a3a3
+vendor/lib64/libaudioconfigstore.so|1a752baf972930007e6b10a64bbcebe14b7cb6a5
+vendor/lib64/libaudioparsers.so|bc02240aa70e41ba85da6f04541d6bc599982b4b
 
 # Audio ACDB - from T89571AA3-user 11 RKQ1.200928.002 00WW_3_150 release-keys
 vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb|045370fe3fd0d7b9128cb29b6af51edf5d293aeb
